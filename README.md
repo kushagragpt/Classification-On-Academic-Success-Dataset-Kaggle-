@@ -1,4 +1,4 @@
-# Deep-Learning-Based-Lung-Cancer-Classification
+# Classification On Academic Success Dataset - Kaggle
 
 ## Description
 This repository contains a LightGBM classification model developed to classify instances into three categories: "Dropout", "Enrolled", and "Graduate." The model is trained on a dataset with features that are used to predict the target variable. The project includes data preprocessing, model training, evaluation, and submission of predictions.

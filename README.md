@@ -4,20 +4,30 @@
 This repository contains a LightGBM classification model developed to classify instances into three categories: "Dropout", "Enrolled", and "Graduate." The model is trained on a dataset with features that are used to predict the target variable. The project includes data preprocessing, model training, evaluation, and submission of predictions.
 
 ## Project Structure
-classtrain.csv: Training dataset used to train the model.
-classtest.csv: Test dataset used to generate predictions.
-final.csv: Final submission file with predictions for the test set.
-notebooks/: Directory containing Jupyter notebooks with exploratory data analysis (optional).
-src/: Directory containing Python scripts for data preprocessing, model training, and evaluation (optional).
+-classtrain.csv: Training dataset used to train the model.
+
+-classtest.csv: Test dataset used to generate predictions.
+
+-final.csv: Final submission file with predictions for the test set.
+
+-notebooks/: Directory containing Jupyter notebooks with exploratory data analysis (optional).
+
+-src/: Directory containing Python scripts for data preprocessing, model training, and evaluation (optional).
 
 ## Requirements
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-lightgbm
-scipy
+-numpy
+
+-pandas
+
+-matplotlib
+
+-seaborn
+
+-scikit-learn
+
+-lightgbm
+
+-scipy
 
 ## Usage
 -Data Preparation: Load your training and test data using the provided CSV files.
